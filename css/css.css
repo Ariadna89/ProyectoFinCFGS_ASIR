@@ -1,0 +1,169 @@
+/*RESPONSIVE MODO PANTALLA SEGÚN SEA MÓVIL, TABLET, PC...*/
+/*
+@media only screen and (max-width: 500px) {
+*/
+/*PARA EL MENÚ:*/
+/*		a.menu {
+ 			   display:inline-block;
+		           padding:0px 12px;
+		           margin:0px 8px;
+       			}			*/
+/*	<fieldset style="margin:auto"> <!-- AGRUPA LOS CAMPOS DEL FORMULARIO -->	*/
+div {
+  margin: .4em 0;
+  float: ;
+    }
+
+fieldset {
+    border-right: 4px solid #000000;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    border-left: 4px solid #000000;
+    font-weight: bold;
+    background-color: #99FFFF;
+    width: 50%;
+    padding: 1em;
+         }
+
+legend {
+  padding: 0.2em 0.5em;
+  border:4px solid blue;/*Esto es el cuadrito de legend que sale en color azul*/
+  color:blue; /*La letra de legend*/
+  font-size:100%;
+  text-align:right;
+       }
+	
+input {
+  font-size:90%;
+  text-align:right;    
+      }
+
+/*
+a {
+    background-color: #white; 
+    border: 2px solid #black;
+    font-size: 15px;
+    color: #black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: blink;
+    display: inline-block;
+    }
+*/
+
+/*PARA CUANDO TE PONES ENCIMA DEL BOTON QUE QUIERES QUE HAGA, QUE SE QUEDE EN BLANCO, EFECTOS*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    #border-left: 1px solid #000000;
+    #border-right: 1px solid #000000;
+    }
+
+li {
+    background-color: #8A0BF9;
+    float: left;
+
+    background: #8A0BF9;
+   }
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+               }
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0BC1F9;/*CADA ELEMENTO DEL MENÚ SE COLOREA EN AZUL TURQUESA*/
+				     }
+
+li.dropdown {
+    display: inline-block;
+	    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+		    }
+
+.dropdown-content a:hover {background-color: #B7BEC0}/*LA LISTA DESPLEGABLE DE SERVICIOS SE PONEN EN GRIS POR CADA UNO QUE PASES*/
+
+.show {display:block;}
+
+.transp-block {
+    background: #000 url(imagenes/principal.jpg) no-repeat;
+    top:         30%;
+    left:        40%;
+    width:        0px;
+    height:       480px;
+    margin-left: -320px;
+    margin-top:  150px;
+    display:block;
+    position: absolute;
+    margin-top: .auto;
+    margin-bottom: .auto;
+    text-align: center;
+	      }
+
+img.transparent {
+    filter:alpha(opacity=60);
+    opacity:.600;
+    		}
+
+/*	RESPONSIVE	TABLET, MÓVIL, ORDENADOR	*/
+body {
+      background-color: lightgreen;
+     }
+
+@media only screen and (max-width: 500px) 
+     {
+    
+       body {
+             background-color: lightblue;
+            }
+      }
+
+
+body { 
+    background-color: #CCFFFF; 
+    color: #000000; 
+    font-family: Courier;
+    font-size: 1em; 
+    }
+p { 
+    margin-right: .5em; 
+    margin-left: 2em; 
+    line-height: 1.2; 
+    font-size: 1em; 
+    color: black; 
+    font-weight: bold; 
+    text-align: center
+  }
+h3 { 
+    color: #7A0A0A; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    font-family: Courier, Arial, Helvetica, sans-serif;
+    text-align: center;
+   }
+
+
